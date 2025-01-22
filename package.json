@@ -1,0 +1,40 @@
+{
+    "name": "l0gz",
+    "version": "0.0.1",
+    "description": "npm publish package",
+    "main": "dist/index.js",
+    "module": "module",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "types": "dist/index.d.ts",
+    "keywords": [],
+    "author": "dohoangtrong",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/node": "^16.11.10",
+        "ts-node": "^10.9.1"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "reflect-metadata": "^0.1.13"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE",
+        "package.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dohoangtrong/Logger.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Dohoangtrong/Logger/issues"
+    },
+    "homepage": "https://github.com/Dohoangtrong/Logger#readme"
+}
